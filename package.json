@@ -15,16 +15,21 @@
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --table-width 4 --write  "
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/man49116/man49116.git"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
+    "husky": "^7.0.4",
     "node-sass": "^6.0.1"
   },
   "devDependencies": {
-    "husky": "^7.0.0",
     "lint-staged": "^11.2.4",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.13",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "husky": "^7.0.0"
   }
 }
